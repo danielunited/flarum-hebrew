@@ -25,7 +25,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -41,7 +41,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitlab-public-community" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,7 +55,9 @@
       <option name="presentableId" value="Default" />
       <updated>1586460759650</updated>
       <workItem from="1586460761495" duration="480000" />
-      <workItem from="1591600953805" duration="2038000" />
+      <workItem from="1591600953805" duration="2864000" />
+      <workItem from="1591629712819" duration="1907000" />
+      <workItem from="1591730809786" duration="9000" />
     </task>
     <servers />
   </component>
@@ -72,5 +75,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="865" y="428" key="FileChooserDialogImpl" timestamp="1591730816787">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="865" y="428" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1591730816787" />
   </component>
 </project>

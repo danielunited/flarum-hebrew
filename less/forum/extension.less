@@ -24,6 +24,10 @@ html[lang=he] {
       margin-left: -14px;
       margin-right: 276px;
     }
+    .hasPane.panePinned .App-content, .hasPane.panePinned .App-footer {
+      margin-left: 0;
+      margin-right: 400px;
+    }
   }
 
   .Button-caret {
@@ -452,6 +456,9 @@ html[lang=he] {
   .Scrubber-unread {
     padding-left: 0;
     padding-right: 13px;
+    background-image: linear-gradient(to left, #ededed, rgba(237,237,237,0) 10px, rgba(237,237,237,0));
+    border-left: none;
+    border-right: 1px solid #9a9a98;
   }
 
   .Scrubber-before,
@@ -1038,8 +1045,56 @@ html[lang=he] {
     padding-right: 0;
     padding-left: 10px;
   }
+  .EventPost-icon {
+    float: right;
+  }
+
+  .NotificationGroup-badges {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  .panePinned .DiscussionPage-list {
+    left: auto;
+    right: 0;
+  }
+
+  .panePinned .DiscussionPage-list {
+    overflow-x: hidden;
+  }
+
+  .PostUser {
+    float: none !important;
+  }
+
+  .Hero-close {
+    float: left;
+  }
+
+  .Notification .Notification-action {
+    float: left;
+  }
+
+  .PostPreview .Avatar {
+    float: right;
+  }
+
+  .MentionsDropdown .PostPreview-content, .PostMention-preview .PostPreview-content, .Post-mentionedBy-preview .PostPreview-content {
+    padding-right: 37px;
+    padding-left: 0;
+  }
+
+  .MentionsDropdown .PostPreview .Avatar, .PostMention-preview .PostPreview .Avatar, .Post-mentionedBy-preview .PostPreview .Avatar {
+    margin: 0 -37px 0 0;
+  }
+
+  .NotificationGroup-badges {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  .item-points {
+    direction: ltr;
+  }
 }
 
-.EventPost-icon {
-  float: right;
-}
