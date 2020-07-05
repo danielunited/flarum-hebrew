@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -42,7 +45,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitlab-public-community" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -58,6 +63,7 @@
       <workItem from="1591600953805" duration="2864000" />
       <workItem from="1591629712819" duration="1907000" />
       <workItem from="1591730809786" duration="9000" />
+      <workItem from="1593979550732" duration="207000" />
     </task>
     <servers />
   </component>
@@ -77,9 +83,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1010" y="615" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1593979633073">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="615" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400@0.0.2560.1400" timestamp="1593979633073" />
     <state x="865" y="428" key="FileChooserDialogImpl" timestamp="1591730816787">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="865" y="428" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1591730816787" />
+    <state x="753" y="390" key="SettingsEditor" timestamp="1593979690164">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="753" y="390" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1593979690164" />
   </component>
 </project>
