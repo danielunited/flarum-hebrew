@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../convo-website" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
@@ -63,7 +63,8 @@
       <workItem from="1591600953805" duration="2864000" />
       <workItem from="1591629712819" duration="1907000" />
       <workItem from="1591730809786" duration="9000" />
-      <workItem from="1593979550732" duration="207000" />
+      <workItem from="1593979550732" duration="398000" />
+      <workItem from="1594045215847" duration="56000" />
     </task>
     <servers />
   </component>
@@ -87,10 +88,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="615" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400@0.0.2560.1400" timestamp="1593979633073" />
-    <state x="865" y="428" key="FileChooserDialogImpl" timestamp="1591730816787">
+    <state x="865" y="428" key="FileChooserDialogImpl" timestamp="1594045268992">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="865" y="428" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1591730816787" />
+    <state x="865" y="428" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1594045268992" />
     <state x="753" y="390" key="SettingsEditor" timestamp="1593979690164">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
