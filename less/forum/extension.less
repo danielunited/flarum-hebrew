@@ -1,4 +1,4 @@
-html[lang=he] {
+html[lang="he"] {
   .App,
   #modal,
   #alerts {
@@ -24,7 +24,8 @@ html[lang=he] {
       margin-left: -14px;
       margin-right: 276px;
     }
-    .hasPane.panePinned .App-content, .hasPane.panePinned .App-footer {
+    .hasPane.panePinned .App-content,
+    .hasPane.panePinned .App-footer {
       margin-left: 0;
       margin-right: 400px;
     }
@@ -47,9 +48,9 @@ html[lang=he] {
     }
 
     .Search {
-      -webkit-transition: margin-right .4s;
-      -o-transition: margin-right .4s;
-      transition: margin-right .4s;
+      -webkit-transition: margin-right 0.4s;
+      -o-transition: margin-right 0.4s;
+      transition: margin-right 0.4s;
     }
 
     .Search.focused {
@@ -206,7 +207,7 @@ html[lang=he] {
     }
 
     .Header-primary {
-      float: right
+      float: right;
     }
 
     .Header-navigation {
@@ -296,8 +297,8 @@ html[lang=he] {
   }
 
   @media (max-width: 991px) and (min-width: 768px),
-  (max-width: 1099px) and (min-width: 992px),
-  (min-width: 1100px) {
+    (max-width: 1099px) and (min-width: 992px),
+    (min-width: 1100px) {
     .TagDiscussionModal-form-submit {
       padding-left: 0;
       padding-right: 15px;
@@ -373,8 +374,8 @@ html[lang=he] {
     padding-right: 20px;
   }
 
-  .checkbox input[type=checkbox],
-  .checkbox input[type=radio] {
+  .checkbox input[type="checkbox"],
+  .checkbox input[type="radio"] {
     float: right;
     margin-left: 0;
     margin-right: -20px;
@@ -456,7 +457,12 @@ html[lang=he] {
   .Scrubber-unread {
     padding-left: 0;
     padding-right: 13px;
-    background-image: linear-gradient(to left, #ededed, rgba(237,237,237,0) 10px, rgba(237,237,237,0));
+    background-image: linear-gradient(
+      to left,
+      #ededed,
+      rgba(237, 237, 237, 0) 10px,
+      rgba(237, 237, 237, 0)
+    );
     border-left: none;
     border-right: 1px solid #9a9a98;
   }
@@ -470,15 +476,18 @@ html[lang=he] {
   /*.Navigation-back .icon { transform: rotate(180deg); }*/
 
   @media (min-width: 1100px) {
-    .hasPane.panePinned .Navigation-pin, .hasPane.paneShowing .Navigation-pin {
+    .hasPane.panePinned .Navigation-pin,
+    .hasPane.paneShowing .Navigation-pin {
       margin-left: 0px !important;
     }
 
-    .hasPane.panePinned .Navigation-back, .hasPane.paneShowing .Navigation-back {
+    .hasPane.panePinned .Navigation-back,
+    .hasPane.paneShowing .Navigation-back {
       border-radius: 0 4px 4px 0 !important;
     }
 
-    .ButtonGroup > .Button:last-child:not(:first-child), .ButtonGroup > .Button.Dropdown-toggle:not(:first-child) {
+    .ButtonGroup > .Button:last-child:not(:first-child),
+    .ButtonGroup > .Button.Dropdown-toggle:not(:first-child) {
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
       border-top-left-radius: 4px;
@@ -501,15 +510,14 @@ html[lang=he] {
   }
 
   .UserCard-badges {
-    margin: 0 15px 0 0
+    margin: 0 15px 0 0;
   }
 
   .UserCard-controls {
     float: left;
   }
 
-  @media (max-width: 1099px) and (min-width: 992px),
-  (min-width: 1100px) {
+  @media (max-width: 1099px) and (min-width: 992px), (min-width: 1100px) {
     .App-content .sideNavOffset {
       margin-left: auto;
     }
@@ -548,9 +556,9 @@ html[lang=he] {
   }
 
   .Button .Button-label {
-    -webkit-transition: margin-left .1s;
-    -o-transition: margin-left .1s;
-    transition: margin-left .1s;
+    -webkit-transition: margin-left 0.1s;
+    -o-transition: margin-left 0.1s;
+    transition: margin-left 0.1s;
   }
 
   .Button .LoadingIndicator {
@@ -604,7 +612,7 @@ html[lang=he] {
     .Header-controls .FormControl,
     .Header-controls .ButtonGroup,
     .Header-controls .Button {
-      text-align: unset
+      text-align: unset;
     }
 
     .Header-controls button.Search-clear.Button {
@@ -660,7 +668,7 @@ html[lang=he] {
 
   .PermissionGrid tbody th {
     padding-left: 50px;
-    padding-right: 5px
+    padding-right: 5px;
   }
 
   code,
@@ -681,7 +689,8 @@ html[lang=he] {
     padding-right: 150px;
   }
 
-  .TagGroup > label, .MemberListPage .MemberList-list .MemberListItems > label {
+  .TagGroup > label,
+  .MemberListPage .MemberList-list .MemberListItems > label {
     float: right;
     margin-left: 0;
     margin-right: -150px;
@@ -693,6 +702,10 @@ html[lang=he] {
 
   .TagsLabel .TagLabel:last-child {
     border-radius: 4px 0 0 4px;
+  }
+
+  .TagsPage-nav {
+    float: none;
   }
 
   .Select {
@@ -770,14 +783,39 @@ html[lang=he] {
 
   /* User Management */
 
-  .MemberListPage .MemberList-list .MemberListItems .MemberList li .MemberListItem-info0 .Button,
-  .MemberListPage .MemberList-list .MemberListItems .MemberList li .MemberListItem-info1 .Button,
-  .MemberListPage .MemberList-list .MemberListItems .MemberList li .MemberListItem-info .Button {
+  .MemberListPage
+    .MemberList-list
+    .MemberListItems
+    .MemberList
+    li
+    .MemberListItem-info0
+    .Button,
+  .MemberListPage
+    .MemberList-list
+    .MemberListItems
+    .MemberList
+    li
+    .MemberListItem-info1
+    .Button,
+  .MemberListPage
+    .MemberList-list
+    .MemberListItems
+    .MemberList
+    li
+    .MemberListItem-info
+    .Button {
     float: left;
     margin: 0;
   }
 
-  .MemberListPage .MemberList-list .MemberListItems .MemberList li .MemberListItem-info > *[class^=MemberListItem-] i {
+  .MemberListPage
+    .MemberList-list
+    .MemberListItems
+    .MemberList
+    li
+    .MemberListItem-info
+    > *[class^="MemberListItem-"]
+    i {
     margin-left: 1ch;
   }
 
@@ -823,7 +861,9 @@ html[lang=he] {
 
   /* reflar/gamification */
 
-  .SettingsPage .Ranks-number, .SettingsPage .Ranks-name, .SettingsPage .Ranks-color {
+  .SettingsPage .Ranks-number,
+  .SettingsPage .Ranks-name,
+  .SettingsPage .Ranks-color {
     float: right;
     margin: 5px 0 5px 5px;
   }
@@ -858,7 +898,6 @@ html[lang=he] {
     right: auto;
   }
 
-
   .Navigation-back .icon {
     transform: rotate(180deg);
   }
@@ -890,7 +929,9 @@ html[lang=he] {
     background: #ededed;
   }
 
-  .KilowhatWordpressSummaryPost-Article h1, .KilowhatWordpressSummaryPost-Article h2, .KilowhatWordpressSummaryPost-Article h3 {
+  .KilowhatWordpressSummaryPost-Article h1,
+  .KilowhatWordpressSummaryPost-Article h2,
+  .KilowhatWordpressSummaryPost-Article h3 {
     font-weight: 400;
   }
 
@@ -908,11 +949,13 @@ html[lang=he] {
     font-weight: 600;
   }
 
-  b, strong {
+  b,
+  strong {
     font-weight: 600;
   }
 
-  .PostUser h3, .PostUser h3 a {
+  .PostUser h3,
+  .PostUser h3 a {
     font-weight: 600;
   }
 
@@ -941,6 +984,10 @@ html[lang=he] {
     margin-left: 0;
   }
 
+  .IndexPage-toolbar {
+    display: none;
+  }
+
   .IndexPage-nav .item-newDiscussion .Button {
     padding: 10px 13px;
   }
@@ -959,7 +1006,8 @@ html[lang=he] {
     padding: 10px;
   }
 
-  .KilowhatWordpressSummaryPost-Wordpress, .KilowhatWordpressSummaryPost-Link {
+  .KilowhatWordpressSummaryPost-Wordpress,
+  .KilowhatWordpressSummaryPost-Link {
     display: none;
   }
 
@@ -989,7 +1037,6 @@ html[lang=he] {
     width: 360px;
   }
 
-
   .chat .frame #chat-header h2 {
     float: right;
     font-size: 17px;
@@ -998,7 +1045,6 @@ html[lang=he] {
   .chat .frame .wrapper .message-wrapper .message-block .toolbar .name {
   }
 
-
   .chat .frame .wrapper .message-wrapper .message-block .toolbar .timestamp {
     float: left;
   }
@@ -1006,14 +1052,12 @@ html[lang=he] {
   .chat .frame .wrapper .message-wrapper .message-block .toolbar .edit {
     float: left;
   }
-
 
   .chat .frame .wrapper .message-wrapper .avatar-wrapper {
     padding-right: 0;
     padding-left: 10px;
   }
 
-
   .chat .frame .wrapper .message-wrapper .message-block .toolbar .timestamp {
     float: left;
   }
@@ -1021,7 +1065,6 @@ html[lang=he] {
   .chat .frame .wrapper .message-wrapper .message-block .toolbar .edit {
     float: left;
   }
-
 
   .chat .frame .wrapper .message-wrapper .avatar-wrapper {
     padding-right: 0;
@@ -1039,7 +1082,6 @@ html[lang=he] {
   .chat .frame .input-wrapper .icon.send {
     transform: rotate(180deg);
   }
-
 
   .chat .frame .wrapper .message-wrapper .message-block .message {
     padding-right: 0;
@@ -1079,12 +1121,16 @@ html[lang=he] {
     float: right;
   }
 
-  .MentionsDropdown .PostPreview-content, .PostMention-preview .PostPreview-content, .Post-mentionedBy-preview .PostPreview-content {
+  .MentionsDropdown .PostPreview-content,
+  .PostMention-preview .PostPreview-content,
+  .Post-mentionedBy-preview .PostPreview-content {
     padding-right: 37px;
     padding-left: 0;
   }
 
-  .MentionsDropdown .PostPreview .Avatar, .PostMention-preview .PostPreview .Avatar, .Post-mentionedBy-preview .PostPreview .Avatar {
+  .MentionsDropdown .PostPreview .Avatar,
+  .PostMention-preview .PostPreview .Avatar,
+  .Post-mentionedBy-preview .PostPreview .Avatar {
     margin: 0 -37px 0 0;
   }
 
@@ -1097,4 +1143,3 @@ html[lang=he] {
     direction: ltr;
   }
 }
-

@@ -1,5 +1,4 @@
 html[lang="he"] {
-
   body {
     direction: rtl;
   }
@@ -11,7 +10,7 @@ html[lang="he"] {
     }
   }
 
-  @media (max-width: 1099px) and (min-width: 992px),(min-width: 1100px) {
+  @media (max-width: 1099px) and (min-width: 992px), (min-width: 1100px) {
     .App-content .sideNavOffset {
       margin-left: 0;
       margin-right: 300px;
@@ -56,7 +55,9 @@ html[lang="he"] {
     }
   }
 
-  .Dropdown-menu > li > a, .Dropdown-menu > li > button, .Dropdown-menu > li > span {
+  .Dropdown-menu > li > a,
+  .Dropdown-menu > li > button,
+  .Dropdown-menu > li > span {
     text-align: right;
   }
 
@@ -83,7 +84,8 @@ html[lang="he"] {
     margin-right: -65px;
   }
 
-  .checkbox input[type=checkbox], .checkbox input[type=radio] {
+  .checkbox input[type="checkbox"],
+  .checkbox input[type="radio"] {
     float: right;
     margin-left: 0;
     margin-right: -20px;
@@ -98,23 +100,29 @@ html[lang="he"] {
     direction: ltr;
   }
 
-  .TagList .TagIcon, .TagList ol .TagIcon, .TagList .icon, .TagList ol .icon {
+  .TagList .TagIcon,
+  .TagList ol .TagIcon,
+  .TagList .icon,
+  .TagList ol .icon {
     margin-left: 10px;
     margin-right: 0;
   }
 
-  .TagGroup, .LinkItems {
+  .TagGroup,
+  .LinkItems {
     padding-right: 150px;
     padding-left: 0;
   }
 
-  .TagGroup > label, .LinkItems > label {
+  .TagGroup > label,
+  .LinkItems > label {
     margin-left: 0;
     margin-right: -150px;
     float: right;
   }
 
-  .TagListItem-info .Button, .LinkListItem-info .Button {
+  .TagListItem-info .Button,
+  .LinkListItem-info .Button {
     float: left;
     margin: -8px 10px -8px -10px;
   }
@@ -124,7 +132,8 @@ html[lang="he"] {
     float: right;
   }
 
-  .PermissionGrid td, .PermissionGrid th {
+  .PermissionGrid td,
+  .PermissionGrid th {
     text-align: right;
   }
 
@@ -137,12 +146,16 @@ html[lang="he"] {
     margin-left: 5px;
   }
 
-  .Dropdown-menu > li > a.hasIcon, .Dropdown-menu > li > button.hasIcon, .Dropdown-menu > li > span.hasIcon {
+  .Dropdown-menu > li > a.hasIcon,
+  .Dropdown-menu > li > button.hasIcon,
+  .Dropdown-menu > li > span.hasIcon {
     padding-right: 40px;
     padding-left: 15px;
   }
 
-  .Dropdown-menu > li > a .Button-icon, .Dropdown-menu > li > button .Button-icon, .Dropdown-menu > li > span .Button-icon {
+  .Dropdown-menu > li > a .Button-icon,
+  .Dropdown-menu > li > button .Button-icon,
+  .Dropdown-menu > li > span .Button-icon {
     float: right;
     margin-left: 0;
     margin-right: -25px;
@@ -181,7 +194,14 @@ html[lang="he"] {
     left: auto;
     right: 0;
   }
-  .EditCustomCssModal textarea, .EditCustomHeaderModal textarea {
+  .EditCustomCssModal textarea,
+  .EditCustomHeaderModal textarea {
     direction: ltr;
+  }
+}
+
+@media (max-width: 767px) {
+  .App-backControl {
+    right: 0;
   }
 }
