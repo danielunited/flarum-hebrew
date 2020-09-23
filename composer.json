@@ -2,7 +2,7 @@
   "name": "danielunited/flarumhe",
   "type": "flarum-extension",
   "description": "תרגום רשמי לעברית",
-  "homepage": "https://github.com/danielunited/flarumhe",
+  "homepage": "https://github.com/danielunited/flarum-hebrew",
   "keywords": [
     "locale"
   ],
