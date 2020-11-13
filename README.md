@@ -1,1 +1,1 @@
-##  flarum-hebrew
+##  Deprecated
