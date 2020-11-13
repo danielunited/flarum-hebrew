@@ -198,6 +198,45 @@ html[lang="he"] {
   .EditCustomHeaderModal textarea {
     direction: ltr;
   }
+
+  // pwa settings start
+
+  .helpText {
+    &:nth-child(7) {
+      >div {
+        display: none !important;
+      }
+    }
+  }
+  .PWAPage {
+    form {
+      >fieldset {
+        &:nth-child(7) {
+          >div {
+            display: none;
+          }
+        }
+      }
+    }
+    .logoFieldset {
+      border: none;
+    }
+  }
+  fieldset.logoFieldset {
+    .helpText {
+      display: none;
+    }
+    img {
+      border-radius: 5%;
+    }
+  }
+  @media (max-width: 767px) {
+    .App-backControl {
+      right: 0;
+    }
+  }
+
+  // pwa settings ending
 }
 
 @media (max-width: 767px) {

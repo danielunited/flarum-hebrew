@@ -1,0 +1,50 @@
+// This styling is was done quickly for functional reasons. It is pretty messy. Proceed with caution. 
+
+html[lang="he"] {
+
+  // user profile start
+  .item-likesReceived {
+    padding: 12px;
+    background: #00000042;
+    border-radius: 8px;
+  }
+  .UserCard-likesReceived {
+    .icon.far.fa-thumbs-up {
+      display: none;
+    }
+  }
+  fieldset.Settings-theme {
+    display: none;
+  }
+
+  // user profile end start
+
+// reactions start
+
+  .CommentPost--Reactions {
+    * {
+      max-width: 200px !important;
+    }
+    left: 0px !important;
+  }
+  .Reactions {
+    .CommentPost--Reactions {
+      ul {
+        li {
+          button {
+            .Button-label {
+              margin-left: 0 !important;
+            }
+            padding: 8px !important;
+            &:hover {
+              background: #00000012 !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // reactions end
+  
+}
