@@ -199,6 +199,12 @@ html[lang="he"] {
     direction: ltr;
   }
 
+  // hide from settings panel
+
+    .item-kilowhat-wordpress, .item-pwa {
+      display: none !important;
+  }
+
   // pwa settings start
 
   .helpText {
@@ -235,12 +241,31 @@ html[lang="he"] {
       right: 0;
     }
   }
-
-  // pwa settings ending
-}
-
-@media (max-width: 767px) {
-  .App-backControl {
-    right: 0;
+  @media (max-width: 767px) {
+    .App-backControl {
+      right: 0;
+    }
   }
+  // pwa settings ending
+  // reactions settings start
+
+  .Reactions--Container {
+    .Reactions-switch {
+      margin-right: 5px;
+      margin-left: -15px;
+    }
+    .Reactions-button {
+      padding: 8px;
+      margin-left: 10px;
+    }
+    .Button-icon {
+      margin-left: 4px !important;
+      margin-right: 4px !important;
+    }
+  }
+
+  //reactions settings ending
+  // end of styling
 }
+
+
