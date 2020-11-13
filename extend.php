@@ -13,5 +13,4 @@ return [
     new Extend\LanguagePack,
     (new Extend\Frontend('forum'))->css(__DIR__ . '/less/forum/extension.less'),
     (new Extend\Frontend('admin'))->css(__DIR__ . '/less/forum/admin.less'),
-    (new Extend\Frontend('forum'))->css(__DIR__ . '/less/forum/extensions.less'),
 ];
