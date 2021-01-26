@@ -7,13 +7,14 @@ html[lang="he"] {
     .sideNav {
       margin-right: 0;
       margin-left: 50px;
+      right: 0;
     }
   }
 
   @media (max-width: 1099px) and (min-width: 992px), (min-width: 1100px) {
     .App-content .sideNavOffset {
       margin-left: 0;
-      margin-right: 300px;
+      margin-right: 250px;
     }
 
     .App-nav .AdminNav .Dropdown-menu > li > a {
@@ -305,11 +306,9 @@ span.ExtensionListItem-icon.ExtensionIcon {
 .App-content .sideNavOffset {
     margin-left: 0;
     margin-right: 250px;
-    width: calc(100vw - 265px);
 }
 .App-content .container {
   padding: 0 30px;
-  width: calc(100vw - 265px);
 }}
 
 .ExtensionsWidget {
@@ -320,5 +319,12 @@ span.ExtensionListItem-icon.ExtensionIcon {
     color: black;
 }
 
+.ExtensionPage .item-uninstall, .ExtensionPage .ExtensionPage-header .ExtensionInfo, .ExtensionPage .ExtensionPage-permissions-header .ExtensionInfo {
+  display: none;
+}
+.ExtensionPage .ExtensionPage-header .ExtensionName, .ExtensionPage .ExtensionPage-permissions-header .ExtensionName {
+  margin-left: 0;
+  margin-right: 8px;
+}
 // beta 15 update end
 }
