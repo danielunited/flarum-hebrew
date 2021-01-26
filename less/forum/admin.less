@@ -14,7 +14,7 @@ html[lang="he"] {
   @media (max-width: 1099px) and (min-width: 992px), (min-width: 1100px) {
     .App-content .sideNavOffset {
       margin-left: 0;
-      margin-right: 250px;
+      margin-right: 250px !important;
     }
 
     .App-nav .AdminNav .Dropdown-menu > li > a {
@@ -109,23 +109,10 @@ html[lang="he"] {
     margin-right: 0;
   }
 
-  .TagGroup,
-  .LinkItems {
-    padding-right: 150px;
-    padding-left: 0;
-  }
-
-  .TagGroup > label,
-  .LinkItems > label {
-    margin-left: 0;
-    margin-right: -150px;
-    float: right;
-  }
-
-  .TagListItem-info .Button,
-  .LinkListItem-info .Button {
+  .SettingsGroups .TagGroup>ol>li .Button, .SettingsGroups .Form>ol>li .Button {
     float: left;
-    margin: -8px 10px -8px -10px;
+    visibility: hidden;
+    margin: -8px 16px -8px -16px;
   }
 
   .FlarumSEO {
@@ -136,6 +123,8 @@ html[lang="he"] {
   .PermissionGrid td,
   .PermissionGrid th {
     text-align: right;
+    padding-right: 5px;
+    padding-left: 50px;
   }
 
   .PermissionGrid tbody .Dropdown .Dropdown-toggle {
@@ -305,7 +294,7 @@ span.ExtensionListItem-icon.ExtensionIcon {
 @media (min-width: 992px) {
 .App-content .sideNavOffset {
     margin-left: 0;
-    margin-right: 250px;
+    margin-right: 250px !important;
 }
 .App-content .container {
   padding: 0 30px;
@@ -325,6 +314,34 @@ span.ExtensionListItem-icon.ExtensionIcon {
 .ExtensionPage .ExtensionPage-header .ExtensionName, .ExtensionPage .ExtensionPage-permissions-header .ExtensionName {
   margin-left: 0;
   margin-right: 8px;
+}
+
+.Header-controls .item-help {
+  display: none;
+}
+
+.TagListItem-info {
+  max-width: 100%;
+}
+
+.TagList-button {
+  width: 100%;
+}
+
+.PermissionsPage-groups {
+  margin-left: 0;
+  max-width: 100%;
+}
+
+.Navigation-back {
+  float: right !important;
+}
+
+@media (max-width: 767px), (min-width: 768px) and (max-width: 991px) {
+  .ExtensionListTitle {
+    text-align: right;
+    margin: 25px 15px 10px 0 !important;
+}
 }
 // beta 15 update end
 }
